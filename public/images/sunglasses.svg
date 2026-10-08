@@ -1,0 +1,22 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lens" x1="132" y1="190" x2="508" y2="336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A94D42"/>
+      <stop offset="1" stop-color="#5D2D29"/>
+    </linearGradient>
+    <linearGradient id="background" x1="0" y1="0" x2="640" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF8F1"/>
+      <stop offset="1" stop-color="#E9E2D5"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="28" fill="url(#background)"/>
+  <circle cx="320" cy="240" r="178" fill="#CDA936" fill-opacity=".12"/>
+  <path d="M76 201L131 208L119 269C114 296 95 315 67 315H40" stroke="#211E1B" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M564 201L509 208L521 269C526 296 545 315 573 315H600" stroke="#211E1B" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M123 191C126 178 137 169 151 169H277C296 169 311 181 315 199L327 259C335 302 305 341 261 341H183C145 341 115 309 121 271L133 207C135 200 129 194 123 191Z" fill="url(#lens)" stroke="#211E1B" stroke-width="17" stroke-linejoin="round"/>
+  <path d="M517 191C514 178 503 169 489 169H363C344 169 329 181 325 199L313 259C305 302 335 341 379 341H457C495 341 525 309 519 271L507 207C505 200 511 194 517 191Z" fill="url(#lens)" stroke="#211E1B" stroke-width="17" stroke-linejoin="round"/>
+  <path d="M306 211C313 198 327 198 334 211" stroke="#211E1B" stroke-width="17" stroke-linecap="round"/>
+  <path d="M161 211C188 197 218 193 247 197" stroke="#F4E7C1" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+  <path d="M393 197C422 193 452 197 479 211" stroke="#F4E7C1" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+  <text x="320" y="420" fill="#5C554E" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="3">PK STORE</text>
+</svg>

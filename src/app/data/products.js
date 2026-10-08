@@ -1,0 +1,10 @@
+export const products = [
+  { id: 1, title: "Wireless Headphones", price: 49, category: "Electronics", rating: 4, description: "Clear sound with 20 hours of battery.", image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80" },
+  { id: 2, title: "Running Shoes", price: 65, category: "Fashion", rating: 5, description: "Light and comfortable for daily use.", image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80" },
+  { id: 3, title: "Smart Watch", price: 89, category: "Electronics", rating: 3, description: "Track steps, sleep and notifications.", image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80" },
+  { id: 4, title: "Backpack", price: 35, category: "Fashion", rating: 4, description: "Strong, waterproof and roomy.", image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80" },
+  { id: 5, title: "Bluetooth Speaker", price: 29, category: "Electronics", rating: 4, description: "Loud sound in a small body.", image: "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80" },
+  { id: 6, title: "Sunglasses", price: 19, category: "Fashion", rating: 3, description: "UV protection with a light frame.", image: "/images/sunglasses.svg" },
+  { id: 7, title: "Water Bottle", price: 12, category: "Home", rating: 5, description: "Keeps drinks cold for 24 hours.", image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80" },
+  { id: 8, title: "Desk Lamp", price: 24, category: "Home", rating: 4, description: "Adjustable brightness for study.", image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80" },
+];

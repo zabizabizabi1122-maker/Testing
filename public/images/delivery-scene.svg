@@ -1,0 +1,17 @@
+<svg width="680" height="500" viewBox="0 0 680 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="500" rx="32" fill="#17110D"/>
+  <circle cx="515" cy="104" r="48" fill="#F2C230"/>
+  <path d="M85 359H591" stroke="#FFFDF8" stroke-opacity=".35" stroke-width="8" stroke-linecap="round"/>
+  <path d="M137 206H393V356H137V206Z" fill="#B92D24"/>
+  <path d="M393 251H478L537 307V356H393V251Z" fill="#F2C230"/>
+  <path d="M426 270H467L505 306H426V270Z" fill="#FFFDF8"/>
+  <path d="M172 206V166C172 145 189 128 210 128C231 128 248 145 248 166V206" stroke="#F2C230" stroke-width="12" stroke-linecap="round"/>
+  <path d="M246 206V166C246 145 263 128 284 128C305 128 322 145 322 166V206" stroke="#F2C230" stroke-width="12" stroke-linecap="round"/>
+  <path d="M137 249H393" stroke="#FFFDF8" stroke-width="8"/>
+  <path d="M266 206V356" stroke="#FFFDF8" stroke-width="8"/>
+  <circle cx="218" cy="359" r="38" fill="#FFFDF8"/>
+  <circle cx="218" cy="359" r="17" fill="#17110D"/>
+  <circle cx="474" cy="359" r="38" fill="#FFFDF8"/>
+  <circle cx="474" cy="359" r="17" fill="#17110D"/>
+  <text x="340" y="457" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="4" fill="#FFFDF8">PACKED WITH CARE</text>
+</svg>

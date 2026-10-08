@@ -1,0 +1,226 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-50: #fffdf8;
+  --color-slate-100: #f4efe5;
+  --color-slate-200: #d1c6b5;
+  --color-slate-300: #ad9e89;
+  --color-slate-400: #786a58;
+  --color-slate-500: #584a3b;
+  --color-slate-600: #413529;
+  --color-slate-700: #30251c;
+  --color-slate-800: #211810;
+  --color-slate-900: #130e09;
+  --color-slate-950: #080604;
+  --color-gray-50: #fffdf8;
+  --color-gray-100: #f4efe5;
+  --color-gray-200: #d1c6b5;
+  --color-gray-300: #ad9e89;
+  --color-gray-400: #786a58;
+  --color-gray-500: #584a3b;
+  --color-gray-600: #413529;
+  --color-gray-700: #30251c;
+  --color-gray-800: #211810;
+  --color-gray-900: #130e09;
+  --color-gray-950: #080604;
+  --color-violet-50: #fff0ed;
+  --color-violet-100: #ffdbd4;
+  --color-violet-200: #ffb7aa;
+  --color-violet-300: #ff9484;
+  --color-violet-400: #f66e5e;
+  --color-violet-500: #d94739;
+  --color-violet-600: #b92d24;
+  --color-violet-700: #98221c;
+  --color-violet-800: #791c18;
+  --color-violet-900: #5d1916;
+  --color-violet-950: #360c0b;
+  --color-purple-50: #fff0ed;
+  --color-purple-100: #ffdbd4;
+  --color-purple-200: #ffb7aa;
+  --color-purple-300: #ff9484;
+  --color-purple-400: #f66e5e;
+  --color-purple-500: #d94739;
+  --color-purple-600: #b92d24;
+  --color-purple-700: #98221c;
+  --color-purple-800: #791c18;
+  --color-purple-900: #5d1916;
+  --color-purple-950: #360c0b;
+  --color-red-50: #fff0ed;
+  --color-red-100: #ffdbd4;
+  --color-red-200: #ffb7aa;
+  --color-red-300: #ff9484;
+  --color-red-400: #f66e5e;
+  --color-red-500: #d94739;
+  --color-red-600: #b92d24;
+  --color-red-700: #98221c;
+  --color-red-800: #791c18;
+  --color-red-900: #5d1916;
+  --color-red-950: #360c0b;
+  --color-blue-50: #fff9dd;
+  --color-blue-100: #ffefad;
+  --color-blue-200: #ffe071;
+  --color-blue-300: #f8cb3e;
+  --color-blue-400: #e5ae13;
+  --color-blue-500: #bd8900;
+  --color-blue-600: #946900;
+  --color-blue-700: #735000;
+  --color-blue-800: #5c4000;
+  --color-blue-900: #493400;
+  --color-blue-950: #291d00;
+  --color-indigo-50: #fff0ed;
+  --color-indigo-100: #ffdbd4;
+  --color-indigo-200: #ffb7aa;
+  --color-indigo-300: #ff9484;
+  --color-indigo-400: #f66e5e;
+  --color-indigo-500: #d94739;
+  --color-indigo-600: #b92d24;
+  --color-indigo-700: #98221c;
+  --color-indigo-800: #791c18;
+  --color-indigo-900: #5d1916;
+  --color-indigo-950: #360c0b;
+  --color-pink-50: #fff9dd;
+  --color-pink-100: #ffefad;
+  --color-pink-200: #ffe071;
+  --color-pink-300: #f8cb3e;
+  --color-pink-400: #e5ae13;
+  --color-pink-500: #bd8900;
+  --color-pink-600: #946900;
+  --color-pink-700: #735000;
+  --color-pink-800: #5c4000;
+  --color-pink-900: #493400;
+  --color-pink-950: #291d00;
+  --color-amber-50: #fff9dd;
+  --color-amber-100: #ffefad;
+  --color-amber-200: #ffe071;
+  --color-amber-300: #f8cb3e;
+  --color-amber-400: #e5ae13;
+  --color-amber-500: #946900;
+  --color-amber-600: #795500;
+  --color-amber-700: #624400;
+  --color-amber-800: #4e3600;
+  --color-amber-900: #3e2b00;
+  --color-amber-950: #241800;
+  --color-yellow-50: #fff9dd;
+  --color-yellow-100: #ffefad;
+  --color-yellow-200: #ffe071;
+  --color-yellow-300: #f8cb3e;
+  --color-yellow-400: #e5ae13;
+  --color-yellow-500: #946900;
+  --color-yellow-600: #795500;
+  --color-yellow-700: #624400;
+  --color-yellow-800: #4e3600;
+  --color-yellow-900: #3e2b00;
+  --color-yellow-950: #241800;
+}
+
+:root {
+  --background: #fffdf8;
+  --foreground: #17110d;
+  --store-border: #c7b9a5;
+  --store-surface: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.store-hero {
+  background: #090706;
+  color: #faf8f3;
+  border-bottom: 5px solid #b92d24;
+}
+
+.store-page-hero {
+  background: #f2c230;
+  border-bottom: 4px solid #b92d24;
+  color: #130e09;
+}
+
+.store-interactive-card {
+  border-color: var(--store-border);
+  background-color: var(--store-surface);
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.store-interactive-card:hover,
+.store-interactive-card:focus-visible {
+  border-color: #98221c;
+  background-color: #fff1bf;
+  box-shadow: 0 14px 30px rgb(23 17 13 / 14%);
+}
+
+.store-art-panel {
+  overflow: hidden;
+  border: 2px solid #211810;
+  border-radius: 1.5rem;
+  background-color: #f2c230;
+}
+
+.hero-orb {
+  position: absolute;
+  z-index: -1;
+  border-radius: 9999px;
+  filter: blur(2px);
+  pointer-events: none;
+}
+
+.hero-orb-one {
+  top: 10%;
+  right: 5%;
+  width: 18rem;
+  height: 18rem;
+  background: rgb(185 45 36 / 28%);
+  animation: orb-drift 12s ease-in-out infinite alternate;
+}
+
+.hero-orb-two {
+  bottom: -8rem;
+  left: 30%;
+  width: 22rem;
+  height: 22rem;
+  background: rgb(242 194 48 / 18%);
+  animation: orb-drift 15s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes orb-drift {
+  from { transform: translate3d(-12px, 8px, 0) scale(0.94); }
+  to { transform: translate3d(18px, -16px, 0) scale(1.08); }
+}
+
+@keyframes hero-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

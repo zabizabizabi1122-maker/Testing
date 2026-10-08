@@ -1,0 +1,38 @@
+<svg width="760" height="620" viewBox="0 0 760 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bag" x1="182" y1="188" x2="571" y2="529" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C96B5D"/>
+      <stop offset="1" stop-color="#963B32"/>
+    </linearGradient>
+    <linearGradient id="box" x1="418" y1="293" x2="649" y2="486" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0D879"/>
+      <stop offset="1" stop-color="#C8A63D"/>
+    </linearGradient>
+    <linearGradient id="smallBag" x1="98" y1="328" x2="254" y2="469" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4E7C1"/>
+      <stop offset="1" stop-color="#D3B84F"/>
+    </linearGradient>
+    <filter id="shadow" x="61" y="103" width="668" height="495" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="389" cy="308" r="238" fill="#C96B5D" fill-opacity=".12"/>
+  <circle cx="611" cy="153" r="47" fill="#F0D879" fill-opacity=".5"/>
+  <circle cx="147" cy="173" r="23" fill="#E0B852"/>
+  <circle cx="654" cy="331" r="16" fill="#C96B5D"/>
+  <ellipse cx="388" cy="531" rx="290" ry="29" fill="#343A33" fill-opacity=".16" filter="url(#shadow)"/>
+  <path d="M260 226C260 171 305 126 360 126C415 126 460 171 460 226" stroke="#F0D879" stroke-width="21" stroke-linecap="round"/>
+  <path d="M191 216C191 180 220 151 256 151C292 151 321 180 321 216" stroke="#E0B852" stroke-width="17" stroke-linecap="round"/>
+  <path d="M182 216H536L578 500C581 522 564 542 542 542H216C194 542 177 522 180 500L182 216Z" fill="url(#bag)"/>
+  <path d="M182 216H536L578 500C581 522 564 542 542 542H216C194 542 177 522 180 500L182 216Z" stroke="white" stroke-opacity=".5" stroke-width="4"/>
+  <path d="M255 216C255 158 302 111 360 111C418 111 465 158 465 216" stroke="#F4E7C1" stroke-width="19" stroke-linecap="round"/>
+  <path d="M442 337L633 300L664 477L473 510L442 337Z" fill="url(#box)"/>
+  <path d="M442 337L540 391L664 354" stroke="#FFF7ED" stroke-opacity=".8" stroke-width="5"/>
+  <path d="M540 391L551 495" stroke="#FFF7ED" stroke-opacity=".8" stroke-width="5"/>
+  <path d="M96 335L254 318L271 464L113 481L96 335Z" fill="url(#smallBag)"/>
+  <path d="M145 329C142 298 164 271 195 268C226 265 252 288 255 319" stroke="#F4E7C1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M340 326L375 361L340 396L305 361L340 326Z" fill="#C96B5D"/>
+  <path d="M369 251L384 266L369 281L354 266L369 251Z" fill="white" fill-opacity=".8"/>
+  <path d="M145 253L158 266L145 279L132 266L145 253Z" fill="#E0B852"/>
+  <text x="359" y="455" fill="white" font-family="Arial, sans-serif" font-size="43" font-weight="800" letter-spacing="-2" text-anchor="middle">PK</text>
+</svg>

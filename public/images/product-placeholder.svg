@@ -1,0 +1,20 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF8F1"/>
+      <stop offset="1" stop-color="#E9E2D5"/>
+    </linearGradient>
+    <linearGradient id="box" x1="265" y1="203" x2="547" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BD675B"/>
+      <stop offset="1" stop-color="#913C33"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#background)"/>
+  <circle cx="400" cy="283" r="205" fill="#CDA936" fill-opacity=".1"/>
+  <path d="M232 255L400 162L568 255V423L400 517L232 423V255Z" fill="url(#box)"/>
+  <path d="M232 255L400 349L568 255" stroke="#F4E7C1" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M400 349V517" stroke="#F4E7C1" stroke-width="14"/>
+  <path d="M316 209L483 303" stroke="#CDA936" stroke-width="21"/>
+  <path d="M484 209L316 303" stroke="#CDA936" stroke-width="21"/>
+  <text x="400" y="561" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4" fill="#433D37">PK STORE</text>
+</svg>
